@@ -1,0 +1,16 @@
+{
+  "name": "getyoutubethumb",
+  "version": "1.0.0",
+  "description": "Download Youtube's video thumbnail when paste URL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Vince Frost",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

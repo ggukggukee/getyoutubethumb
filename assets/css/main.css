@@ -1,0 +1,24 @@
+html { 
+    height: 100%; 
+    color: #282828;
+}
+body {
+    min-height: 100%; 
+    position: relative; 
+    padding-bottom: 56px;
+}
+.page-footer { 
+    background-color: #e9ecef;
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height: 56px; 
+}
+
+.col-lg {
+    padding: 0 0;
+}
+
+.card-text {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,54 @@
+<% include ./partials/header%>
+
+<div class="jumbotron">
+        <div>
+            <h1 style="text-align: center">Youtube Thumbnail Downloader</h1>
+            <p style="text-align: center">Put Youtube URL inside of input field</p>
+        </div>
+        <form id="myForm">
+            <div class="form-row justify-content-center"> 
+                <div class="col-sm-3 my-1">
+                    <input type="url" id="url" name="url" class="form-control" placeholder="Youtube URL" pattern="https?://www.youtube.com/.+" required />
+                </div>
+                <div class="col-auto my-1">
+                    <input type="submit" id="submit" class="btn btn-primary" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg mx-1 my-1 card d-none">
+                <img src="" class="card-img-top img-fluid" alt="" id="default">
+                <div class="card-body d-flex align-items-center">
+                    <a id="a-default" href="" class="card-text text-center" target="_blank">Default (120x90)</a>
+                </div>
+            </div>
+            <div class="col-lg mx-1 my-1 card d-none">
+                <img src="" class="card-img-top img-fluid my-auto" alt="" id="mqdefault">
+                <div class="card-body d-flex align-items-center">
+                    <a id="a-mqdefault" href="" class="card-text text-center" target="_blank">Medium Quality (320x180)</a>
+                </div>
+            </div>
+            <div class="col-lg mx-1 my-1 card d-none">
+                <img src="" class="card-img-top img-fluid" alt="" id="hqdefault">
+                <div class="card-body d-flex align-items-center">
+                    <a id="a-hqdefault" href="" class="card-text text-center" target="_blank">High Quality (480x360)</a>
+                </div>
+            </div>
+            <div class="col-lg mx-1 my-1 card d-none">
+                <img src="" class="card-img-top img-fluid" alt="" id="sddefault">
+                <div class="card-body d-flex align-items-center">
+                    <a id="a-sddefault" href="" class="card-text text-center" target="_blank">Standard Definiton (640x480)</a>
+                </div>
+            </div>
+            <div class="col-lg mx-1 my-1 card d-none">
+                <img src="" class="card-img-top img-fluid" alt="" id="maxresdefault">
+                <div class="card-body d-flex align-items-center">
+                    <a id="a-maxresdefault" href="" class="card-text text-center" target="_blank">Maximum Resolution (1280x720)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <% include ./partials/footer%>
